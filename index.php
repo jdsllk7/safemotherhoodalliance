@@ -5,7 +5,7 @@
 	<title>Home | Safe Motherhood Alliance</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="shortcut icon" type="image/x-icon" href="images/logo/sma-logo-pink.png" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo/pink-mom-baby-logo-circle-white-background.png" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,8 +27,8 @@
 			<div class="row">
 				<div class="col-md-6 d-flex align-items-center">
 					<p class="mb-0 phone pl-md-2">
-						<a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +00 1234 567</a>
-						<a href="#"><span class="fa fa-paper-plane mr-1"></span> youremail@email.com</a>
+						<a href="tel:+260977748759" class="mr-2"><span class="fa fa-phone mr-1"></span>+26 0977 748759</a>
+						<a href="mailto:info@safemotherhoodalliance.org?Subject=Hello" target="_blank"><span class="fa fa-paper-plane mr-1"></span> info@safemotherhoodalliance.org</a>
 					</p>
 				</div>
 				<div class="col-md-6 d-flex justify-content-md-end">
@@ -36,8 +36,7 @@
 						<p class="mb-0 d-flex">
 							<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
 							<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-							<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-							<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+							<!-- <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a> -->
 						</p>
 					</div>
 				</div>
@@ -48,10 +47,10 @@
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
 			<a class="navbar-brand" href="index.php">
-				<img src="images/logo/sma-logo-pink.png" alt="logo" width="80" height="50">
+				<img src="images/logo/pink-mom-baby-logo-with-large-label-right.png" class="m-0 p-0" alt="logo" width="160" height="50">
 			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
+			<button class="navbar-toggler p-3" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars"></span>
 			</button>
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
@@ -75,9 +74,14 @@
 			<div class="row no-gutters slider-text align-items-center">
 				<div class="col-md-6 ftco-animate d-flex align-items-end">
 					<div class="text w-100">
-						<h1 class="mb-4">Counseling For Your Better Life</h1>
-						<p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-						<p><a href="#" class="btn btn-primary py-3 px-4">Contact us</a> <a href="#" class="btn btn-white py-3 px-4">Read more</a></p>
+						<h1 class="mb-4">Safe Motherhood Alliance - Zambia</h1>
+						<p class="mb-4">
+							Providing baby delivery kits to women in Rural areas, Raising awareness and providing education.
+						</p>
+						<p>
+							<a href="#" class="btn btn-primary py-3 px-4">Contact us</a>
+							<a href="#" class="btn btn-white py-3 px-4">Read more</a>
+						</p>
 					</div>
 				</div>
 				<a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
@@ -622,9 +626,12 @@
 
 
 	<!-- loader -->
-	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+	<div id="ftco-loader" class="show fullscreen">
+		<svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#a0caf0" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4c2c3" />
+		</svg>
+	</div>
 
 
 	<script src="js/jquery.min.js"></script>
