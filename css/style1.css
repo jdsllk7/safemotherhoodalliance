@@ -1,0 +1,52 @@
+/**************MY STYLING*************/
+.baby-blue-normal-color {
+  color: var(--baby-blue-normal) !important;
+}
+
+.baby-blue-darker-color {
+  color: var(--baby-blue-darker) !important;
+}
+
+.baby-blue-darkest-color {
+  color: var(--baby-blue-darkest) !important;
+}
+
+.baby-blue-normal-bg {
+  background: var(--baby-blue-normal) !important;
+}
+
+.baby-blue-darker-bg {
+  background: var(--baby-blue-darker) !important;
+}
+
+.baby-blue-darkest-bg {
+  background: var(--baby-blue-darkest) !important;
+}
+
+.baby-pink-normal-color {
+  color: var(--baby-pink-normal) !important;
+}
+
+.baby-pink-darker-color {
+  color: var(--baby-pink-darker) !important;
+}
+
+.baby-pink-darkest-color {
+  color: var(--baby-pink-darkest) !important;
+}
+
+.baby-pink-normal-bg {
+  background: var(--baby-pink-normal) !important;
+}
+
+.baby-pink-darker-bg {
+  background: var(--baby-pink-darker) !important;
+}
+
+.baby-pink-darkest-bg {
+  background: var(--baby-pink-darkest) !important;
+}
+
+.hide {
+  display: none;
+}
