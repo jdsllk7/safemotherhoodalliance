@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style1.css">
+	<link rel="stylesheet" href="css/style2.css">
 </head>
 
 <body>
@@ -27,19 +28,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 d-flex align-items-center">
-					<p class="mb-0 phone pl-md-2">
-						<a href="tel:+260977748759" class="mr-2"><span class="fa fa-phone mr-1"></span>+26 0977 748759</a>
-						<a href="mailto:info@safemotherhoodalliance.org?Subject=Hello" target="_blank"><span class="fa fa-paper-plane mr-1"></span> info@safemotherhoodalliance.org</a>
-					</p>
-				</div>
-				<div class="col-md-6 d-flex justify-content-md-end">
 					<div class="social-media">
 						<p class="mb-0 d-flex">
-							<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-							<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-							<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+							<a href="tel:+260977748759" title="Call us" class="d-flex align-items-center justify-content-center"><span class="fa fa-phone"></span></a>
+							<a target="_blank" title="Email us" href="mailto:info@safemotherhoodalliance.org?Subject=Hello" class="d-flex align-items-center justify-content-center"><span class="fa fa-envelope"></span></a>
+							<a target="_blank" title="Our Facebook Page" href="https://www.facebook.com/safemotherhoodkits/" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
+							<a target="_blank" title="Our Twitter Page" href="https://twitter.com/alliance_safe" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a>
+							<a target="_blank" title="Our LinkedIn Page" href="https://www.linkedin.com/company/safe-motherhood-alliance/" class="d-flex align-items-center justify-content-center"><span class="fa fa-linkedin"></span></a>
 						</p>
 					</div>
+				</div>
+				<div class="col-md-6 d-flex justify-content-md-end">
+					<button type="button" data-toggle="modal" data-target="#subscribe" class="btn baby-blue-normal-bg border-bottom m-1 text-white">Subscribe for Newsletter <i class="fa fa-paper-plane text-white"></i></button>
 				</div>
 			</div>
 		</div>
@@ -597,6 +597,37 @@
 			</div>
 		</div>
 	</footer>
+
+	<!-- The Modal -->
+	<div class="modal fade" id="subscribe">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form class="container-fluid">
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="card p-3 p-md-4 text-white border-0">
+								<span>
+									<i class="fa fa-envelope-open-o fa-2x baby-blue-darkest-color" aria-hidden="true"></i>
+								</span>
+								<h6 class="my-3 baby-blue-darkest-color"> Subscribe to our newsletters</h6>
+								<div class="row d-flex my-2 pr-2 pr-md-5 div1">
+									<div class="col-8">
+										<input type="email" name="email" class="form-control py-3 font-small baby-blue-normal-border-1" style="height: 50px;" placeholder="Enter email address" autocomplete required>
+									</div>
+									<div class="col-3">
+										<button type="submit" class="btn btn-primary btn-lg ml-0 font-small" style="height: 50px;">Subscribe</button>
+									</div>
+								</div>
+								<p class="mb-0 pb-0">
+									<a href="contact.php" class="text-underline font-small text-gray-dark">Contact us</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
 
 
 

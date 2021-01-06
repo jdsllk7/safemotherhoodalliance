@@ -1,0 +1,28 @@
+input:invalid:focus {
+  border-color: #c00000 !important;
+}
+#inp1 {
+  background-color: #222222;
+  border: 1px solid #636161;
+  font-size: 0.75rem
+}
+
+#inp1:focus {
+  outline: none;
+  box-shadow: none
+}
+
+.btn {
+  background-color: #5c72d8;
+  font-size: 0.78rem;
+  border: 0px
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none
+}
+
+*:focus {
+  outline: none
+}
