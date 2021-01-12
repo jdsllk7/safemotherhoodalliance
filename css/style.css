@@ -12923,7 +12923,8 @@ textarea.form-control {
   width: 50px;
   display: block;
   float: left;
-  background: var(--baby-blue-normal);
+  color: var(--baby-blue-normal);
+  background: var(--white);
   border-radius: 50%;
   position: relative;
 }

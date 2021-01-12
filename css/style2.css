@@ -1,6 +1,7 @@
 input:invalid:focus {
   border-color: #c00000 !important;
 }
+
 #inp1 {
   background-color: #222222;
   border: 1px solid #636161;
@@ -25,4 +26,9 @@ input:invalid:focus {
 
 *:focus {
   outline: none
+}
+
+a:hover,
+a .text:hover {
+  color: var(--baby-blue-normal) !important;
 }
