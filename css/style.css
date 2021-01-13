@@ -7301,7 +7301,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: var(--baby-blue-normal)!important;
+  background-color: var(--baby-blue-normal) !important;
 }
 
 a.bg-primary:hover,
@@ -7437,7 +7437,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: var(--baby-blue-normal)!important;
+  border-color: var(--baby-blue-normal) !important;
 }
 
 .border-secondary {
@@ -11307,7 +11307,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: var(--baby-blue-normal)!important;
+  color: var(--baby-blue-normal) !important;
 }
 
 a.text-primary:hover,
@@ -11733,6 +11733,10 @@ h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item.active>a {
+  color: var(--baby-blue-normal);
+}
+
+.active {
   color: var(--baby-blue-normal);
 }
 
@@ -12923,13 +12927,17 @@ textarea.form-control {
   width: 50px;
   display: block;
   float: left;
-  color: var(--baby-blue-normal);
-  background: var(--white);
+  background: none;
   border-radius: 50%;
   position: relative;
 }
 
+.ftco-footer-social li a:hover {
+  background: var(--baby-blue-normal);
+}
+
 .ftco-footer-social li a span {
+  color: var(--white);
   position: absolute;
   font-size: 18px;
   top: 50%;
@@ -12937,10 +12945,6 @@ textarea.form-control {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
-
-.ftco-footer-social li a:hover {
-  color: #fff;
 }
 
 .footer-small-nav>li {
