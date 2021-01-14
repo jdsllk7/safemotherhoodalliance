@@ -1,5 +1,5 @@
 <?php
-include 'class-autoLoader.inc.php';
+include 'includes/class-autoLoader.inc.php';
 ?>
 
 <!DOCTYPE html>
@@ -39,7 +39,7 @@ include 'class-autoLoader.inc.php';
                     </div>
                 </div>
                 <div class="col-md-6 d-flex justify-content-md-end">
-                    <button type="button" data-toggle="modal" data-target="#subscribe" class="btn baby-blue-normal-bg border-bottom m-1 text-white">Subscribe for Newsletter <i class="fa fa-paper-plane text-white"></i></button>
+                    <button type="button" data-toggle="modal" data-target="#subscribe" class="btn baby-blue-normal-bg border-bottom m-1 text-white">Subscribe for weekly blog <i class="fa fa-paper-plane text-white"></i></button>
                 </div>
             </div>
         </div>
@@ -59,7 +59,6 @@ include 'class-autoLoader.inc.php';
                     <li class="nav-item nav-about"><a href="about.php" class="nav-link">About</a></li>
                     <li class="nav-item nav-services"><a href="services.php" class="nav-link">Services</a></li>
                     <li class="nav-item nav-team"><a href="team.php" class="nav-link">Team</a></li>
-                    <!-- <li class="nav-item nav-pricing"><a href="pricing.php" class="nav-link">Pricing</a></li> -->
                     <li class="nav-item nav-blog"><a href="blog.php" class="nav-link">Blog</a></li>
                     <li class="nav-item nav-contact"><a href="contact.php" class="nav-link">Contact</a></li>
                 </ul>

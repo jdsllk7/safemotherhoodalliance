@@ -1,6 +1,6 @@
 <!-- header -->
 <?php
-include 'includes/header.inc.php';
+include 'includes/partials/header.inc.php';
 ?>
 
 <head>
@@ -30,6 +30,11 @@ include 'includes/header.inc.php';
 		</div>
 	</div>
 </div>
+
+<!-- <?php
+$db = new DB();
+$db->connect();
+?> -->
 
 <section class="ftco-intro">
 	<div class="container">
@@ -457,7 +462,7 @@ include 'includes/header.inc.php';
 
 <!-- footer -->
 <?php
-include 'includes/footer.inc.php';
+include 'includes/partials/footer.inc.php';
 ?>
 
 <!-- nav-link active -->

@@ -53,14 +53,12 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class="mb-0" style="color: rgba(255,255,255,.5);">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;<script>
                             document.write(new Date().getFullYear());
                         </script> All rights reserved | Powered by
                         <a href="https://joshuakosamu.netlify.app/" target="_blank">
                             <img src="https://jdslk.netlify.com/other/images/jdslk_logo.png" height="40px" width="40px" alt="joshuakosamu.netlify.app">
                         </a>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
             </div>
@@ -68,38 +66,30 @@
     </div>
 </footer>
 
-<!-- The Newsletters Modal -->
+<!-- Weekly Blog Modal -->
 <div class="modal fade" id="subscribe">
     <div class="modal-dialog">
         <div class="modal-content">
-            <form class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="card p-3 p-md-4 text-white border-0">
-                            <div class="close-model">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <span>
-                                <i class="fa fa-envelope-open-o fa-2x baby-blue-darkest-color" aria-hidden="true"></i>
-                            </span>
-                            <h6 class="my-3 baby-blue-darkest-color"> Subscribe for our newsletters</h6>
-                            <!-- <p class="text-dark font-small">Receive our weekly activity blogs straight in your email.</p> -->
-                            <p class="text-dark font-small">Subscribe for receive weekly updates on our activities straight into your mail box.</p>
-                            <div class="row d-flex my-2 pr-2 pr-md-5 div1">
-                                <div class="col-8">
-                                    <input type="email" name="email" class="form-control py-3 font-small baby-blue-normal-border-1" style="height: 50px;" placeholder="Enter email address" autocomplete required>
-                                </div>
-                                <div class="col-3">
-                                    <button type="submit" class="btn btn-primary btn-lg ml-0 font-small" style="height: 50px;">Subscribe</button>
-                                </div>
-                            </div>
-                            <p class="mb-0 pb-0">
-                                <a href="contact.php" class="text-underline font-small text-gray-dark">Contact us</a>
-                            </p>
-                        </div>
-                    </div>
+            <div class="modal-header border-0">
+                <div class="modal-title baby-blue-darkest-color">
+                    <p class="fa fa-envelope-open-o fa-2x baby-blue-darkest-color" aria-hidden="true"></p>
+                    <h6>Subscribe for our Weekly Blog</h6>
                 </div>
-            </form>
+                <button type="button" class="close p-3" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body border-0 pt-0">
+                <form class="input-group mb-3">
+                    <input type="email" name="email" class="form-control newsletterInput" placeholder="Enter email address" aria-label="Enter email address" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary font-medium newslettersBtn" type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer border-0 pt-0">
+                <a href="contact.php" class="text-underline font-small text-gray-dark">Contact us</a>
+            </div>
         </div>
     </div>
 </div>

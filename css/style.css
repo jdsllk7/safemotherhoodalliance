@@ -587,6 +587,14 @@ pre code {
   margin-left: auto;
 }
 
+
+.newsletterInput,
+.newslettersBtn {
+  font-size: medium !important;
+}
+
+
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -11944,6 +11952,11 @@ h5,
   .slider-text .img-video {
     bottom: 80px;
     left: 0;
+  }
+
+  .newsletterInput,
+  .newslettersBtn {
+    font-size: small !important;
   }
 }
 
