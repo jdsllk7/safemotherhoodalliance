@@ -1,7 +1,5 @@
 <?php
 
-namespace Db;
-
 use Validator\Validator;
 
 class Db extends Validator
@@ -28,7 +26,7 @@ class Db extends Validator
 		}
 	}
 
-	protected function connect()
+	public function connect()
 	{
 
 		if ($this->server() == 'localhost') { // if connected to local server
