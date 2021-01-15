@@ -6,7 +6,7 @@ include 'includes/partials/header.inc.php';
 
 <head>
 	<title>
-		Home|Safe Motherhood Alliance
+		Home | Safe Motherhood Alliance <?php echo 'jdslk'; ?>
 		<?php
 		$db = new DB();
 		echo '[' . $db->server() . ']';
