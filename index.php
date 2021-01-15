@@ -3,8 +3,15 @@
 include 'includes/partials/header.inc.php';
 ?>
 
+
 <head>
-	<title>Home | Safe Motherhood Alliance</title>
+	<title>
+		Home | Safe Motherhood Alliance
+		<?php
+		$db = new DB();
+		echo '[' . $db->server() . ']';
+		?>
+	</title>
 </head>
 
 <div class="hero-wrap" style="background-image: url('images/banner/o-BLACK-TIGER-MOTHER-facebook.jpg');" data-stellar-background-ratio="0.5">
@@ -30,11 +37,6 @@ include 'includes/partials/header.inc.php';
 		</div>
 	</div>
 </div>
-
-<!-- <?php
-$db = new DB();
-var_dump($db->connect());
-?> -->
 
 <section class="ftco-intro">
 	<div class="container">
