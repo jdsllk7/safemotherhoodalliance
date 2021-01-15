@@ -31,11 +31,6 @@ include 'includes/partials/header.inc.php';
 	</div>
 </div>
 
-<!-- <?php
-$db = new DB();
-$db->connect();
-?> -->
-
 <section class="ftco-intro">
 	<div class="container">
 		<div class="row no-gutters">

@@ -1,6 +1,10 @@
 <?php
 
-class Db
+namespace Db;
+
+use Validator\Validator;
+
+class Db extends Validator
 {
 
 	//localhost
