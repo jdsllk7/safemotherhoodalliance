@@ -2,7 +2,7 @@
 
 namespace EmailSubscribe;
 
-use Db\Db;
+use Db;
 
 class EmailSubscribe extends Db
 {
