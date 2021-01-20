@@ -1,20 +1,18 @@
 <?php
-
+//load all classes
 include 'class-autoLoader.inc.php';
 
-$response = array(
-	'status' => 0,
-	'message' => 'Error occurred, please try again.'
-);
+//init array
+$response = array();
 
+//get form input
 $email = $_POST["email"];
 
+//get class object
 $emailSubscribe = new EmailSubscribe\EmailSubscribe();
-if ($emailSubscribe->saveEmail($email)) {
-	$response['status'] = 1;
-	$response['message'] = 'Email subscription successful';
-} else {
-	$response['status'] = 0;
-	$response['message'] = 'Email address required';
-}
+
+//save email
+$response = $emailSubscribe->saveEmail($email);
+
+//send back to jQuery
 echo json_encode($response);

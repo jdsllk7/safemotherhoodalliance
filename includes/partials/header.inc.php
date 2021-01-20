@@ -8,6 +8,12 @@ include 'includes/class-autoLoader.inc.php';
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        <?php
+        $db = new DB();
+        echo $title . ' [' . $db->server() . ']';
+        ?>
+    </title>
     <link rel="shortcut icon" type="image/x-icon" href="images/logo/pink-mom-baby-logo-circle-white-background.png" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

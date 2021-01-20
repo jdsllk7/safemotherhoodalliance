@@ -127,6 +127,22 @@
   display: inline !important;
 }
 
+.relative {
+  position: relative !important;
+}
+
+.absolute {
+  position: absolute !important;
+}
+
+.fixed {
+  position: fixed !important;
+}
+
+.top-0 {
+  top: 0;
+}
+
 .text-underline {
   text-decoration: underline;
 }

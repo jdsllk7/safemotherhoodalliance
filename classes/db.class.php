@@ -4,7 +4,6 @@ use Validator\Validator;
 
 class Db extends Validator
 {
-
 	//localhost
 	private $servernameLocal = "localhost";
 	private $usernameLocal = "root";
@@ -19,9 +18,9 @@ class Db extends Validator
 
 	public function server()
 	{
-		if (file_exists('classes/localhost.txt')) {
+		if (strpos($_SERVER['HTTP_HOST'], 'localhost') >= 0) {
 			return 'localhost';
-		} else {
+		} elseif (strpos($_SERVER['HTTP_HOST'], 'safemotherhoodalliance.org') >= 0) {
 			return 'production';
 		}
 	}

@@ -82,7 +82,7 @@
             <div class="modal-body border-0 pt-0">
                 <form id="emailSubscribeForm">
                     <div class="input-group">
-                        <input type="text" name="email" class="form-control newsletterInput" placeholder="Enter email address" aria-label="Enter email address" aria-describedby="basic-addon2">
+                        <input type="email" name="email" class="form-control newsletterInput" placeholder="Enter email address" aria-label="Enter email address" aria-describedby="basic-addon2">
                         <div class="input-group-append">
                             <button class="btn btn-primary font-medium newslettersBtn" type="submit">Subscribe</button>
                         </div>
@@ -116,9 +116,10 @@
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/jquery.animateNumber.min.js"></script>
 <script src="js/scrollax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> -->
 <!-- <script src="js/google-map.js"></script> -->
 <script src="js/main.js"></script>
+<script src="js/ajaxCall.js"></script>
 <script src="js/emailSubscribe.js"></script>
 
 </body>

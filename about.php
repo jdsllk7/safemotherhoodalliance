@@ -1,11 +1,8 @@
 <!-- header -->
 <?php
+$title = "About | Safe Motherhood Alliance";
 include 'includes/partials/header.inc.php';
 ?>
-
-<head>
-  <title>About | Safe Motherhood Alliance</title>
-</head>
 
 <section class="hero-wrap hero-wrap-2" style="background-image: url('images/banner/084e5242fd3c48e484455d908d4240dd - Copy.jpg');" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
