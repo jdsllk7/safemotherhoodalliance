@@ -11,15 +11,16 @@ CREATE DATABASE IF NOT EXISTS `dembebxq_sma_db`;
 
 CREATE TABLE IF NOT EXISTS `admin` (
   `adminId` BIGINT(20) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-  `email` VARCHAR(255) NOT NULL
+  `email` VARCHAR(255) NOT NULL,
+  `password` VARCHAR(255) NOT NULL 
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
 --
 -- Dumping data for table `admin` 
 --
 
-INSERT INTO `admin` (`email`) VALUES
-('admin123@safemotherhoodalliance.org');
+INSERT INTO `admin` (`email`, `password`) VALUES
+('info@safemotherhoodalliance.org', '12345');
 
 -- --------------------------------------------------------
 
