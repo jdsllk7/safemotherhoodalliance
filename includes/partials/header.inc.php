@@ -67,6 +67,7 @@ include 'includes/class-autoLoader.inc.php';
                     <li class="nav-item nav-team"><a href="team.php" class="nav-link">Team</a></li>
                     <li class="nav-item nav-blog"><a href="blog.php" class="nav-link">Blog</a></li>
                     <li class="nav-item nav-contact"><a href="contact.php" class="nav-link">Contact</a></li>
+                    <li class="nav-donate"><a href="donate.php" class="btn btn-sm baby-blue-normal-bg p-2 text-white">Donate Now</a></li>
                 </ul>
             </div>
         </div>

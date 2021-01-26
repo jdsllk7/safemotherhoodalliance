@@ -2,7 +2,9 @@
 
 namespace Validator;
 
-class Validator
+use SystemServices\SystemServices;
+
+class Validator extends SystemServices
 {
     //validate email
     public function validate_email($data, $required)

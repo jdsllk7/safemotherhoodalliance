@@ -18,9 +18,9 @@ class Db extends Validator
 
 	public function server()
 	{
-		if (strpos($_SERVER['HTTP_HOST'], 'localhost') >= 0) {
+		if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
 			return 'localhost';
-		} elseif (strpos($_SERVER['HTTP_HOST'], 'safemotherhoodalliance.org') >= 0) {
+		} elseif (strpos($_SERVER['HTTP_HOST'], 'safemotherhoodalliance.org') !== false) {
 			return 'production';
 		}
 	}

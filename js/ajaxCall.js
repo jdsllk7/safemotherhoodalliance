@@ -1,11 +1,18 @@
 $(document).ready(function () {
-  window.ajaxCall = function ajaxCall(form, url) {
+  window.ajaxCallForm = function ajaxCallForm(
+    type, // post/get [required]
+    form, //HTML form: $(this) [required]
+    url, //URL to post form data to [required]
+    redirectStatus, //should we redirect after success? true/false [required]
+    redirectURL, //URL to redirect to if response = success [default = empty string]
+    callbackFunction //function to call after success [default = null]
+  ) {
     //house keeping
     let submitBtn = form.closest("form").find(":submit");
     let submitBtnText = submitBtn.html();
-    let feedbackMsg = form.closest("form").children(".feedbackMsg");
+    let feedbackMsg = form.find("pre:first");
     $.ajax({
-      type: "post",
+      type: type,
       url: url,
       data: form.serialize(),
       dataType: "json",
@@ -22,6 +29,14 @@ $(document).ready(function () {
           form.trigger("reset");
           feedbackMsg.removeClass("text-danger");
           feedbackMsg.addClass("text-success");
+          if (redirectStatus) {
+            setTimeout(function () {
+              window.location.replace(redirectURL);
+            }, 2000);
+          }
+          if (callbackFunction) {
+            callbackFunction(form, response.message);
+          }
         } else {
           feedbackMsg.removeClass("text-success");
           feedbackMsg.addClass("text-danger");
@@ -38,21 +53,21 @@ $(document).ready(function () {
         submitBtn.html(submitBtnText);
       },
     });
-  }; // end ajaxCall()
+  }; // end ajaxCallForm()
 }); //end document.ready
 
-/* let ajaxPromise = new Promise((resolve, reject) => {
-    if (true) {
-      resolve();
-    } else {
-      reject();
-    }
-  });
-
-  ajaxPromise
-    .then(() => {
-      alert("We good!");
-    })
-    .catch(() => {
-      alert("Agony!");
-    }); */
+/* let myPromise = new Promise((resolve, reject) => {
+  //check if user is sure of action
+  if (true) {
+    resolve();
+  } else {
+    reject();
+  }
+});
+myPromise
+  .then(() => {
+    //if resolve
+  })
+  .catch(() => {
+    //if reject
+  }); */

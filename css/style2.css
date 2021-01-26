@@ -10,6 +10,11 @@ a:hover,
 a .text:hover {
   color: var(--baby-blue-normal) !important;
 }
-/* .formFeedback{
-  
-} */
+
+a.btn:hover {
+  color: white !important;
+}
+
+.box-shadow {
+  box-shadow: 4px 4px 8px var(--baby-blue-darkest-bg) !important;
+}

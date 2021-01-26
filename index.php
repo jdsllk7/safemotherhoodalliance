@@ -21,9 +21,9 @@ include 'includes/partials/header.inc.php';
 					</p>
 				</div>
 			</div>
-			<a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
+			<!-- <a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
 				<span class="fa fa-play"></span>
-			</a>
+			</a> -->
 		</div>
 	</div>
 </div>

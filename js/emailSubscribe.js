@@ -1,6 +1,20 @@
 $(document).ready(function () {
   $("#emailSubscribeForm").submit(function (event) {
     event.preventDefault();
-    ajaxCall($(this), "includes/emailSubscribe.inc.php");
+    let form = $(this);
+    //Ajax Call
+    ajaxCallForm(
+      "post", //post get [required]
+      form, //HTML form: $(this) [required]
+      "includes/emailSubscribe.inc.php", //URL to post form data to [required]
+      false, //should we redirect after success? true/false [required]
+      "", //URL to redirect to if response = success [default = empty string]
+      null //function to call after success [default = null]
+    );
+
+    //function to be called back upon ajax success
+    function myCallback(form, responseMessage) {
+      console.log(form, responseMessage);
+    } //end myCallback()
   });
 });

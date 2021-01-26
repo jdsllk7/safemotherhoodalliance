@@ -18,8 +18,8 @@
                     <ul class="list-unstyled">
                         <li><a href="about.php"><span class="fa fa-chevron-right mr-2"></span>About Us</a></li>
                         <li><a href="contact.php"><span class="fa fa-chevron-right mr-2"></span>Contact Us</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Our Blog</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Subscribe</a></li>
+                        <li><a href="blog.php"><span class="fa fa-chevron-right mr-2"></span>Our Blog</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#subscribe"><span class="fa fa-chevron-right mr-2"></span>Subscribe</a></li>
                     </ul>
                 </div>
             </div>
@@ -27,10 +27,10 @@
                 <div class="ftco-footer-widget mb-4 ml-md-4">
                     <h2 class="ftco-heading-2">Services</h2>
                     <ul class="list-unstyled">
+                        <li><a href="donate.php"><span class="fa fa-chevron-right mr-2"></span>Donate Now</a></li>
                         <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Delivery Kits</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Other</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Other</a></li>
                         <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Privacy &amp; Policy</a></li>
+                        <!-- <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Other</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                             document.write(new Date().getFullYear());
                         </script> All rights reserved | Powered by
                         <a href="https://joshuakosamu.netlify.app/" target="_blank">
-                            <img src="https://jdslk.netlify.com/other/images/jdslk_logo.png" height="40px" width="40px" alt="joshuakosamu.netlify.app">
+                            <img src="https://web-remote-resources.netlify.app/jdslk/jdslk_logo.png" height="40px" width="40px" alt="joshuakosamu.netlify.app">
                         </a>
                     </p>
                 </div>
@@ -96,7 +96,6 @@
         </div>
     </div>
 </div>
-
 <!-- loader -->
 <div id="ftco-loader" class="show fullscreen">
     <svg class="circular" width="48px" height="48px">
@@ -121,7 +120,23 @@
 <script src="js/main.js"></script>
 <script src="js/ajaxCall.js"></script>
 <script src="js/emailSubscribe.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/emailUnsubscribe.js"></script>
 
 </body>
 
 </html>
+
+
+
+<!-- Email Test -->
+<?php
+/* $emailObj = new SystemServices\SystemServices();
+    $email = "";
+    $name = "Joshua Kosamu";
+    $heading = "Please verify your email";
+    $subheading = "Amazing deals, updates, interesting news right in your inbox";
+    $btn = '<a href="#" class="btn text-white baby-pink-darkest-bg">Yes! Subscribe	Me</a>';
+    $extra = "Please not that this will take some time";
+    echo $emailObj->emailUI($email, $name, $heading, $subheading, $btn, $extra); */
+?>
