@@ -27,7 +27,7 @@
                 <div class="ftco-footer-widget mb-4 ml-md-4">
                     <h2 class="ftco-heading-2">Services</h2>
                     <ul class="list-unstyled">
-                        <li><a href="donate.php"><span class="fa fa-chevron-right mr-2"></span>Donate Now</a></li>
+                        <li><a href="https://ravesandbox.flutterwave.com/donate/5wsqmnmx97vb" target="_blank"><span class="fa fa-chevron-right mr-2"></span>Donate Now</a></li>
                         <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Delivery Kits</a></li>
                         <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Privacy &amp; Policy</a></li>
                         <!-- <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Other</a></li> -->
@@ -117,8 +117,9 @@
 <script src="js/scrollax.min.js"></script>
 <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> -->
 <!-- <script src="js/google-map.js"></script> -->
+<script src="js/social.js"></script>
 <script src="js/main.js"></script>
-<script src="js/ajaxCall.js"></script>
+<script src="js/ajaxCallFormSubmit.js"></script>
 <script src="js/emailSubscribe.js"></script>
 <script src="js/contact.js"></script>
 <script src="js/emailUnsubscribe.js"></script>

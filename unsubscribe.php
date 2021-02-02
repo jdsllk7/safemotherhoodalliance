@@ -1,7 +1,7 @@
 <!-- header -->
 <?php
 $title = "Unsubscribe Email | Safe Motherhood Alliance";
-include 'includes/partials/header.inc.php';
+include_once 'includes/partials/header.inc.php';
 ?>
 
 <section class="ftco-section bg-light" style="height: 100vh;">
@@ -31,5 +31,5 @@ include 'includes/partials/header.inc.php';
 
 <!-- footer -->
 <?php
-include 'includes/partials/footer.inc.php';
+include_once 'includes/partials/footer.inc.php';
 ?>

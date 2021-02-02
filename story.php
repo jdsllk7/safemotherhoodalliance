@@ -1,7 +1,7 @@
 <!-- header -->
 <?php
 $title = "My Story | Safe Motherhood Alliance";
-include 'includes/partials/header.inc.php';
+include_once 'includes/partials/header.inc.php';
 ?>
 
 <section class="hero-wrap hero-wrap-2" style="background-image: url('images/banner/Zero-to-Three-Report-1024x574.jpg');" data-stellar-background-ratio="0.5">
@@ -43,5 +43,5 @@ include 'includes/partials/header.inc.php';
 
 <!-- footer -->
 <?php
-include 'includes/partials/footer.inc.php';
+include_once 'includes/partials/footer.inc.php';
 ?>

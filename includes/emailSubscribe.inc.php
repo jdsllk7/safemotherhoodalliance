@@ -1,6 +1,6 @@
 <?php
 //load all classes
-include 'class-autoLoader.inc.php';
+include_once 'class-autoLoader.inc.php';
 
 //init array
 $response = array();

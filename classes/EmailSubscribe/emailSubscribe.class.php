@@ -15,10 +15,11 @@ class EmailSubscribe extends Db
 
 	public function emailExists($email)
 	{
+		$conn = $this->connect();
 		//clean up email
-		$this->email = $this->stripOff($this->connect(), $email);
+		$this->email = $this->stripOff($conn, $email);
 		$sql = "SELECT email FROM emailSubscribe WHERE email ='" . $this->email . "'";
-		$result = $this->connect()->query($sql);
+		$result = $conn->query($sql);
 		if ($result->num_rows >= 1) {
 			return true;
 		} else {
@@ -30,15 +31,16 @@ class EmailSubscribe extends Db
 	//method returns an array of [bool & string]
 	public function saveEmail($email)
 	{
+		$conn = $this->connect();
 		//clean up email
-		$this->email = $this->stripOff($this->connect(), $email);
+		$this->email = $this->stripOff($conn, $email);
 
 		//validate email
 		if (!empty($this->email)) {
 			if ($this->validate_email($this->email, 'required')) {
 				if (!$this->emailExists($this->email)) {
 					$sql = "INSERT INTO `emailSubscribe`(`email`) VALUES ('" . $this->email . "')";
-					if ($this->connect()->query($sql) === TRUE) {
+					if ($conn->query($sql) === TRUE) {
 						//send email
 						$receiverName = "";
 						$receiverEmail = $email;
@@ -61,7 +63,7 @@ class EmailSubscribe extends Db
 					}
 				} else {
 					$this->response['status'] = false;
-					$this->response['message'] = 'This email address already exists';
+					$this->response['message'] = 'This email address has already subscribed';
 				}
 			} else {
 				$this->response['status'] = false;
@@ -78,15 +80,16 @@ class EmailSubscribe extends Db
 	//method returns an array of [bool & string]
 	public function deleteEmail($email)
 	{
+		$conn = $this->connect();
 		//clean up email
-		$this->email = $this->stripOff($this->connect(), $email);
+		$this->email = $this->stripOff($conn, $email);
 
 		//validate email
 		if (!empty($this->email)) {
 			if ($this->validate_email($this->email, 'required')) {
 				if ($this->emailExists($this->email)) {
 					$sql = "DELETE FROM emailSubscribe WHERE email LIKE '$this->email'";
-					if ($this->connect()->query($sql) === TRUE) {
+					if ($conn->query($sql) === TRUE) {
 						$this->response['status'] = true;
 						$this->response['message'] = 'You will no longer receive emails from us.';
 					} else {

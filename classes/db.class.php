@@ -25,7 +25,7 @@ class Db extends Validator
 		}
 	}
 
-	protected function connect()
+	public function connect()
 	{
 		if ($this->server() == 'localhost') { // if connected to local server
 			$conn = new mysqli($this->servernameLocal, $this->usernameLocal, $this->passwordLocal, $this->dbNameLocal);

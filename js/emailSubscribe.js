@@ -6,6 +6,8 @@ $(document).ready(function () {
     ajaxCallForm(
       "post", //post get [required]
       form, //HTML form: $(this) [required]
+      null, //HTML form: (this) if it contains files on submit [default = null | value = this] 
+      false, //If form submit contains files true/false [required]
       "includes/emailSubscribe.inc.php", //URL to post form data to [required]
       false, //should we redirect after success? true/false [required]
       "", //URL to redirect to if response = success [default = empty string]

@@ -1,7 +1,7 @@
 <!-- header -->
 <?php
 $title = "Home | Safe Motherhood Alliance";
-include 'includes/partials/header.inc.php';
+include_once 'includes/partials/header.inc.php';
 ?>
 
 <div class="hero-wrap" style="background-image: url('images/banner/o-BLACK-TIGER-MOTHER-facebook.jpg');" data-stellar-background-ratio="0.5">
@@ -454,7 +454,7 @@ include 'includes/partials/header.inc.php';
 
 <!-- footer -->
 <?php
-include 'includes/partials/footer.inc.php';
+include_once 'includes/partials/footer.inc.php';
 ?>
 
 <!-- nav-link active -->

@@ -1,7 +1,7 @@
 <!-- header -->
 <?php
 $title = "About | Safe Motherhood Alliance";
-include 'includes/partials/header.inc.php';
+include_once 'includes/partials/header.inc.php';
 ?>
 
 <section class="hero-wrap hero-wrap-2" style="background-image: url('images/banner/084e5242fd3c48e484455d908d4240dd - Copy.jpg');" data-stellar-background-ratio="0.5">
@@ -29,7 +29,7 @@ include 'includes/partials/header.inc.php';
           <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
           <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
 
-          <a href="donate.php" class="btn btn-lg baby-blue-darker-bg text-white align-items-center mt-4">
+          <a href="https://ravesandbox.flutterwave.com/donate/5wsqmnmx97vb" target="_blank" class="btn btn-lg baby-blue-darker-bg text-white align-items-center mt-4">
             Donate Now
           </a>
         </div>
@@ -196,7 +196,7 @@ include 'includes/partials/header.inc.php';
 
 <!-- footer -->
 <?php
-include 'includes/partials/footer.inc.php';
+include_once 'includes/partials/footer.inc.php';
 ?>
 
 <!-- nav-link active -->

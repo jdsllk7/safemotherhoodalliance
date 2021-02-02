@@ -20,11 +20,12 @@ class Contact extends Db
 	//method returns an array of [bool & string]
 	public function saveContact($name, $email, $subject, $message)
 	{
+		$conn = $this->connect();
 		//clean up
-		$this->name = $this->stripOff($this->connect(), $name);
-		$this->email = $this->stripOff($this->connect(), $email);
-		$this->subject = $this->stripOff($this->connect(), $subject);
-		$this->message = $this->stripOff($this->connect(), $message);
+		$this->name = $this->stripOff($conn, $name);
+		$this->email = $this->stripOff($conn, $email);
+		$this->subject = $this->stripOff($conn, $subject);
+		$this->message = $this->stripOff($conn, $message);
 
 		//validate
 		if (!empty($this->email)) {
@@ -42,7 +43,7 @@ class Contact extends Db
 				$this->response['message'] = 'Please provide valid message';
 			} else {
 				$sql = "INSERT INTO `contactUs`(`fullName`, `email`, `subject`, `message`) VALUES ('" . $this->name . "', '" . $this->email . "', '" . $this->subject . "', '" . $this->message . "')";
-				if ($this->connect()->query($sql) === TRUE) {
+				if ($conn->query($sql) === TRUE) {
 					//send email
 					$receiverName = 'Hi ' . $this->name;
 					$receiverEmail = $this->email;

@@ -1,5 +1,5 @@
 <?php
-include 'includes/class-autoLoader.inc.php';
+include_once 'includes/class-autoLoader.inc.php';
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +17,7 @@ include 'includes/class-autoLoader.inc.php';
     <link rel="shortcut icon" type="image/x-icon" href="images/logo/pink-mom-baby-logo-circle-white-background.png" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -67,7 +68,7 @@ include 'includes/class-autoLoader.inc.php';
                     <li class="nav-item nav-team"><a href="team.php" class="nav-link">Team</a></li>
                     <li class="nav-item nav-blog"><a href="blog.php" class="nav-link">Blog</a></li>
                     <li class="nav-item nav-contact"><a href="contact.php" class="nav-link">Contact</a></li>
-                    <li class="nav-donate"><a href="donate.php" class="btn btn-sm baby-blue-normal-bg p-2 text-white">Donate Now</a></li>
+                    <li class="nav-donate"><a href="https://ravesandbox.flutterwave.com/donate/5wsqmnmx97vb" target="_blank" class="btn btn-sm baby-blue-normal-bg p-2 text-white">Donate Now</a></li>
                 </ul>
             </div>
         </div>

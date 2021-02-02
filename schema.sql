@@ -50,7 +50,26 @@ CREATE TABLE IF NOT EXISTS `contactUs` (
 -- --------------------------------------------------------
 
 
+CREATE TABLE `sysfiles` (
+  `fileId` BIGINT(20) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  `path` varchar(255) NOT NULL,
+  `fileType` varchar(255) NOT NULL,
+  `sourceId` bigint(20) NOT NULL,
+  `uploadDate` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
 
+
+-- --------------------------------------------------------
+
+
+-- Create table
+CREATE TABLE IF NOT EXISTS `blog` ( 
+  `blogId` BIGINT(20) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  `blogTitle` VARCHAR(255) NOT NULL,
+  `blogText` VARCHAR(1000) NOT NULL,
+  `shared` tinyint(1) NOT NULL DEFAULT 0,
+  `uploadDate` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
 
 
 
