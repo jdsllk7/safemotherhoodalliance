@@ -105,19 +105,19 @@ include_once 'includes/partials/header.inc.php';
 </section>
 
 <div class="share-btn-container">
-  <a href="#" target="_blank" class="facebook-btn">
+  <a href="#" title="Share on facebook" target="_blank" class="facebook-btn">
     <i class="fab fa-facebook"></i>
   </a>
 
-  <a href="#" target="_blank" class="twitter-btn">
+  <a href="#" title="Share on twitter" target="_blank" class="twitter-btn">
     <i class="fab fa-twitter"></i>
   </a>
 
-  <a href="#" target="_blank" class="linkedin-btn">
+  <a href="#" title="Share on linkedin" target="_blank" class="linkedin-btn">
     <i class="fab fa-linkedin"></i>
   </a>
 
-  <a href="#" target="_blank" class="whatsapp-btn">
+  <a href="#" title="Share on whatsapp" target="_blank" class="whatsapp-btn">
     <i class="fab fa-whatsapp"></i>
   </a>
 </div>
