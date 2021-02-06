@@ -14,7 +14,8 @@ include_once 'includes/class-autoLoader.inc.php';
         echo $title . ' [' . $db->server() . ']';
         ?>
     </title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/logo/pink-mom-baby-logo-circle-white-background.png" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="images/logo/pink-mom-baby-logo-circle-white-background.png" /> -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
