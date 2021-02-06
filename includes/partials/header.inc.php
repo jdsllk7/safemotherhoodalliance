@@ -10,6 +10,7 @@ include_once 'includes/class-autoLoader.inc.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
         <?php
+        var_dump($_SERVER['HTTP_HOST']);
         $db = new DB();
         echo $title . ' [' . $db->server() . ']';
         ?>
