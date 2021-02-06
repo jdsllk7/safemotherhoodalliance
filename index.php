@@ -1,8 +1,8 @@
 <!-- header -->
-<head>
-	<title>jdslk</title>
-	<link rel="shortcut icon" href="favicon.ico">
-</head>
+<?php
+$title = "Home | Safe Motherhood Alliance";
+include_once 'includes/partials/header.inc.php';
+?>
 
 <div class="hero-wrap" style="background-image: url('images/banner/o-BLACK-TIGER-MOTHER-facebook.jpg');" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
