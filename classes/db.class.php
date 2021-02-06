@@ -18,15 +18,18 @@ class Db extends Validator
 
 	public function server()
 	{
+		var_dump("server()");
+		var_dump($_SERVER['HTTP_HOST']);
 		if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
 			return 'localhost';
 		} elseif (strpos($_SERVER['HTTP_HOST'], 'safemotherhoodalliance.org') !== false) {
 			return 'production';
 		}
-	}
+	} //end server()
 
 	public function connect()
 	{
+		var_dump("connect()");
 		if ($this->server() == 'localhost') { // if connected to local server
 			$conn = new mysqli($this->servernameLocal, $this->usernameLocal, $this->passwordLocal, $this->dbNameLocal);
 		} elseif ($this->server() == 'production') { //if connected to prod server

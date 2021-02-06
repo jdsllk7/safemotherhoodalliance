@@ -18,13 +18,12 @@ function myAutoLoader($className)
     $extension = ".class.php";
     $fullPath = $path . $className . $extension;
 
-    var_dump(file_exists(strtolower($fullPath)));
-    var_dump($fullPath);
+    // var_dump(file_exists(strtolower($fullPath)));
+    // var_dump($fullPath);
 
     if (!file_exists(strtolower($fullPath))) {
         return false;
     } else {
-        // var_dump($fullPath);
+        require_once $fullPath;
     }
-    require_once $fullPath;
 }
