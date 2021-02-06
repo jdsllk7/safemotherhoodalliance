@@ -34,6 +34,14 @@ include_once 'includes/partials/header.inc.php';
           } else {
             $a_img = '<a href="blog-single.php?blog=' . $row["blogId"] . '" class="block-20 img rounded" style="background-image: url(\'https://' . $_SERVER['HTTP_HOST'] . '/' . $fileManager->getFilePath('blog', $row["blogId"], $conn)[0] . '\');"></a>';
           }
+          if (count(explode(" ", $systemServices->getTimeAgo($row["uploadDate"]))) == 3) {
+            $timeAgo = '' . explode(" ", $systemServices->getTimeAgo($row["uploadDate"]))[0] . '<br>
+						' . explode(" ", $systemServices->getTimeAgo($row["uploadDate"]))[1] . '<br>
+						' . explode(" ", $systemServices->getTimeAgo($row["uploadDate"]))[2] . '';
+          } else {
+            $timeAgo = '' . explode(" ", $systemServices->getTimeAgo($row["uploadDate"]))[0] . '<br>
+						' . explode(" ", $systemServices->getTimeAgo($row["uploadDate"]))[1] . '';
+          }
           echo '
           <div class="col-md-4 d-flex ftco-animate">
             <div class="blog-entry justify-content-end text-center">
@@ -42,9 +50,7 @@ include_once 'includes/partials/header.inc.php';
                 <a href="blog-single.php?blog=' . $row["blogId"] . '" class="meta text-center mb-2 d-flex align-items-center justify-content-center">
                   <div>
                     <span class="mos font-small" title="Posted ' . $systemServices->getTimeAgo($row["uploadDate"]) . '">
-                      ' . explode(" ", $systemServices->getTimeAgo($row["uploadDate"]))[0] . '<br>
-                      ' . explode(" ", $systemServices->getTimeAgo($row["uploadDate"]))[1] . '<br>
-                      ' . explode(" ", $systemServices->getTimeAgo($row["uploadDate"]))[2] . '
+                    ' . $timeAgo . '
                     </span>
                   </div>
                 </a>
