@@ -15,7 +15,7 @@ if (!isset($_GET["blog"])) {
     $conn = $db->connect();
     $img = "http://" . $_SERVER['HTTP_HOST'] . "/myprojects/safemotherhoodalliance/admin/" . $fileManager->getFilePath("blog", $row["blogId"], $conn)[0];
     if ($db->server() == "production") {
-      $img = "http://safemotherhoodalliance.org" . $fileManager->getFilePath('blog', $row["blogId"], $conn)[0];
+      $img = "https://safemotherhoodalliance.org" . $fileManager->getFilePath('blog', $row["blogId"], $conn)[0];
     }
   }
 }
@@ -23,6 +23,16 @@ if (!isset($_GET["blog"])) {
 $title = $row["blogTitle"] . " | Safe Motherhood Alliance";
 include_once 'includes/partials/header.inc.php';
 ?>
+
+<head>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@safemotherhoodalliance">
+  <meta name="twitter:title" content="<?php echo $row["blogTitle"] . " | Safe Motherhood Alliance"; ?>">
+  <meta name="twitter:description" content="<?php echo $row["blogText"]; ?>">
+  <meta name="twitter:creator" content="@MuzalemaMwanza">
+  <meta name="twitter:image" content="http://placekitten.com/250/250">
+  <meta name="twitter:domain" content="<?php echo $img; ?>">
+</head>
 
 <section class="hero-wrap hero-wrap-2" style="background-image: url('<?php echo $img; ?>')" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
