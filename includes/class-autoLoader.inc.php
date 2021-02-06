@@ -12,7 +12,7 @@ function myAutoLoader($className)
     }
     $extension = ".class.php";
     $fullPath = $path . $className . $extension;
-    var_dump(file_exists($fullPath));
+    file_exists($fullPath);
     if (!file_exists($fullPath)) {
         return false;
     } else {
