@@ -11,8 +11,8 @@ include_once 'includes/class-autoLoader.inc.php';
     <title>
         <?php
         var_dump($_SERVER['HTTP_HOST']);
-        $db = new DB();
-        echo $title . ' [' . $db->server() . ']';
+        // $db = new DB();
+        // echo $title . ' [' . $db->server() . ']';
         ?>
     </title>
     <link rel="shortcut icon" href="favicon.ico">
