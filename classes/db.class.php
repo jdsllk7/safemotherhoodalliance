@@ -28,7 +28,7 @@ class Db extends Validator
 
 	public function connect()
 	{
-		var_dump("connect()");
+		// var_dump("connect()");
 		if ($this->server() == 'localhost') { // if connected to local server
 			$conn = new mysqli($this->servernameLocal, $this->usernameLocal, $this->passwordLocal, $this->dbNameLocal);
 		} elseif ($this->server() == 'production') { //if connected to prod server
