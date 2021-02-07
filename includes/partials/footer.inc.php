@@ -17,7 +17,6 @@
                     <h2 class="ftco-heading-2">Explore</h2>
                     <ul class="list-unstyled">
                         <li><a href="about.php"><span class="fa fa-chevron-right mr-2"></span>About Us</a></li>
-                        <li><a href="contact.php"><span class="fa fa-chevron-right mr-2"></span>Contact Us</a></li>
                         <li><a href="blog.php"><span class="fa fa-chevron-right mr-2"></span>Our Blog</a></li>
                         <li><a href="#" data-toggle="modal" data-target="#subscribe"><span class="fa fa-chevron-right mr-2"></span>Subscribe</a></li>
                     </ul>
@@ -27,10 +26,9 @@
                 <div class="ftco-footer-widget mb-4 ml-md-4">
                     <h2 class="ftco-heading-2">Services</h2>
                     <ul class="list-unstyled">
+                        <li><a href="contact.php"><span class="fa fa-chevron-right mr-2"></span>Contact Us</a></li>
                         <li><a href="https://ravesandbox.flutterwave.com/donate/5wsqmnmx97vb" target="_blank"><span class="fa fa-chevron-right mr-2"></span>Donate Now</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Delivery Kits</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Privacy &amp; Policy</a></li>
-                        <!-- <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Other</a></li> -->
+                        <li><a href="https://flutterwave.com/store/safemotherhoodalliance?_ga=2.253222220.491854133.1612730119-620519137.1601276431"><span class="fa fa-chevron-right mr-2"></span>Buy Birth Kits</a></li>
                     </ul>
                 </div>
             </div>

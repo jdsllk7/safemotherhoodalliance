@@ -69,7 +69,7 @@ include_once 'includes/class-autoLoader.inc.php';
                     <li class="nav-item nav-team"><a href="team.php" class="nav-link">Team</a></li>
                     <li class="nav-item nav-blog"><a href="blog.php" class="nav-link">Blog</a></li>
                     <li class="nav-item nav-contact"><a href="contact.php" class="nav-link">Contact</a></li>
-                    <li class="nav-item nav-contact"><a target="_blank" title="Buy Birth Kit Now" href="https://flutterwave.com/store/safemotherhoodalliance?_ga=2.253222220.491854133.1612730119-620519137.1601276431" class="nav-link">Birth-Kits</a></li>
+                    <li class="nav-item"><a target="_blank" title="Buy Birth Kit Now" href="https://flutterwave.com/store/safemotherhoodalliance?_ga=2.253222220.491854133.1612730119-620519137.1601276431" class="nav-link">Birth Kits</a></li>
                     <li class="nav-donate"><a href="https://ravesandbox.flutterwave.com/donate/5wsqmnmx97vb" target="_blank" class="btn btn-sm baby-blue-normal-bg p-2 text-white">Donate Now</a></li>
                 </ul>
             </div>

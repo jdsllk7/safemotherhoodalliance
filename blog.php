@@ -4,7 +4,7 @@ $title = "Blog | Safe Motherhood Alliance";
 include_once 'includes/partials/header.inc.php';
 ?>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/banner/084e5242fd3c48e484455d908d4240dd - Copy.jpg');" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
   <div class="container">
     <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -57,10 +57,10 @@ include_once 'includes/partials/header.inc.php';
                 <h3 class="heading mb-3">' . $row["blogTitle"] . '</h3>
                 <p> ' . substr($row["blogText"], 0, 100) . '... <a href="blog-single.php?blog=' . $row["blogId"] . '">read more</a></p>
               </div>
-					    <a href="#" style="width:30px" title="Share on Twitter" class="btn btn-sm bg-facebook m-1"><i class="fa fa-facebook"></i></a>
+					    <!-- <a href="#" style="width:30px" title="Share on Twitter" class="btn btn-sm bg-facebook m-1"><i class="fa fa-facebook"></i></a>
 					    <a href="#" style="width:30px" title="Share on Twitter" class="btn btn-sm bg-twitter m-1"><i class="fa fa-twitter"></i></a>
 					    <a href="#" style="width:30px" title="Share on LinkedIn" class="btn btn-sm bg-linkedin m-1"><i class="fa fa-linkedin"></i></a>
-					    <a href="#" style="width:30px" title="Share on Instagram" class="btn btn-sm bg-instagram m-1"><i class="fa fa-instagram"></i></a>
+					    <a href="#" style="width:30px" title="Share on Instagram" class="btn btn-sm bg-instagram m-1"><i class="fa fa-instagram"></i></a> -->
             </div>
           </div>
           ';

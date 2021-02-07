@@ -4,7 +4,7 @@ $title = "Services | Safe Motherhood Alliance";
 include_once 'includes/partials/header.inc.php';
 ?>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/banner/084e5242fd3c48e484455d908d4240dd - Copy.jpg');" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -21,7 +21,7 @@ include_once 'includes/partials/header.inc.php';
 		<div class="row justify-content-center pb-5">
 			<div class="col-md-7 heading-section text-center ftco-animate">
 				<span class="subheading">Services</span>
-				<h2>How It Works</h2>
+				<h2>What We Are Offering</h2>
 			</div>
 		</div>
 		<div class="row">
@@ -33,7 +33,7 @@ include_once 'includes/partials/header.inc.php';
 							<span class="flaticon-calendar"></span>
 						</div>
 					</div>
-					<h2>Make Schedule</h2>
+					<h2>Service1</h2>
 					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 				</div>
 			</div>
@@ -45,7 +45,7 @@ include_once 'includes/partials/header.inc.php';
 							<span class="flaticon-qa"></span>
 						</div>
 					</div>
-					<h2>Start Discussion</h2>
+					<h2>Service2</h2>
 					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 				</div>
 			</div>
@@ -57,7 +57,7 @@ include_once 'includes/partials/header.inc.php';
 							<span class="flaticon-checklist"></span>
 						</div>
 					</div>
-					<h2>Enjoy Plan</h2>
+					<h2>Service3</h2>
 					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 				</div>
 			</div>
@@ -65,7 +65,7 @@ include_once 'includes/partials/header.inc.php';
 	</div>
 </section>
 
-<section class="ftco-section bg-light">
+<section class="ftco-section bg-light hide">
 	<div class="container">
 		<div class="row justify-content-center pb-5">
 			<div class="col-md-10 heading-section text-center ftco-animate">

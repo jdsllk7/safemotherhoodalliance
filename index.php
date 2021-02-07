@@ -79,7 +79,7 @@ include_once 'includes/partials/header.inc.php';
 		<div class="row justify-content-center pb-5">
 			<div class="col-md-7 heading-section text-center ftco-animate">
 				<span class="subheading">Services</span>
-				<h2>What We Offer</h2>
+				<h2>What We Are Offering</h2>
 			</div>
 		</div>
 		<div class="row">
@@ -91,8 +91,8 @@ include_once 'includes/partials/header.inc.php';
 							<span class="flaticon-calendar"></span>
 						</div>
 					</div>
-					<h2>Delivery Kits</h2>
-					<p>Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante. Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante.</p>
+					<h2>Service1</h2>
+					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 				</div>
 			</div>
 			<div class="col-md-4 d-flex align-items-stretch ftco-animate">
@@ -103,8 +103,8 @@ include_once 'includes/partials/header.inc.php';
 							<span class="flaticon-qa"></span>
 						</div>
 					</div>
-					<h2>Infant Mortality Awareness</h2>
-					<p>Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante. Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante.</p>
+					<h2>Service2</h2>
+					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 				</div>
 			</div>
 			<div class="col-md-4 d-flex align-items-stretch ftco-animate">
@@ -116,7 +116,7 @@ include_once 'includes/partials/header.inc.php';
 						</div>
 					</div>
 					<h2>Service3</h2>
-					<p>Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante. Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante.</p>
+					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 				</div>
 			</div>
 		</div>
@@ -159,42 +159,42 @@ include_once 'includes/partials/header.inc.php';
 					<div class="tab-pane container p-0 active" id="services-1">
 						<div class="img" style="background-image: url(images/banner/pexels-nappy-3569603.jpg);"></div>
 						<h3><a href="#">Infant Mortality</a></h3>
-						<p>
+						<p class="text-dark">
 							Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante. Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante.
 						</p>
 					</div>
 					<div class="tab-pane container p-0 fade" id="services-2">
 						<div class="img" style="background-image: url(images/banner/pexels-martin-kirigua-2146911.jpg);"></div>
 						<h3><a href="#">Child Births</a></h3>
-						<p>
+						<p class="text-dark">
 							Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante. Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante.
 						</p>
 					</div>
 					<div class="tab-pane container p-0 fade" id="services-3">
 						<div class="img" style="background-image: url(images/banner/pexels-tubarones-photography-37043.jpg);"></div>
 						<h3><a href="#">Clinics & Hospitals</a></h3>
-						<p>
+						<p class="text-dark">
 							Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante. Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante.
 						</p>
 					</div>
 					<div class="tab-pane container p-0 fade" id="services-4">
 						<div class="img" style="background-image: url(images/banner/pexels-absalom-robinson-4621191.jpg);"></div>
 						<h3><a href="#">Header4</a></h3>
-						<p>
+						<p class="text-dark">
 							Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante. Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante.
 						</p>
 					</div>
 					<div class="tab-pane container p-0 fade" id="services-5">
 						<div class="img" style="background-image: url(images/banner/7S3KSVSBLNCXBCWXD6ALLUBA5E.jpg);"></div>
 						<h3><a href="#">Header5</a></h3>
-						<p>
+						<p class="text-dark">
 							Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante. Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante.
 						</p>
 					</div>
 					<div class="tab-pane container p-0 fade" id="services-6">
 						<div class="img" style="background-image: url(images/banner/pexels-mateusz-dach-4519299.jpg);"></div>
 						<h3><a href="#">Header6</a></h3>
-						<p>
+						<p class="text-dark">
 							Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante. Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante.
 						</p>
 					</div>
@@ -217,60 +217,27 @@ include_once 'includes/partials/header.inc.php';
 		<div class="row ftco-animate">
 			<div class="col-md-12">
 				<div class="carousel-testimony owl-carousel ftco-owl">
+
 					<div class="item">
 						<div class="testimony-wrap py-4" style="height: 280px;">
 							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
 							<div class="text">
 								<p class="mb-4 text-dark">
-									Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante.
-									Lorem ipsum dolor sit met, con etur adipiscing elit... <a href="story.php">read more</a>
+									This is Sophie, she was pregnant and her labour started from home. The nearest hospital is 300miles away... <a href="story_sophie.php">read more</a>
 								</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url(images/banner/userprofile.png)"></div>
+									<div class="user-img" style="background-image: url(images/banner/Sophie.jpg)"></div>
 									<div class="pl-3">
-										<p class="name">Jane Doe</p>
-										<span class="position">Mother of two</span>
+										<p class="name">Sophie's Story</p>
+										<span class="position">Birth Kit</span>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="item">
-						<div class="testimony-wrap py-4" style="height: 280px;">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-							<div class="text">
-								<p class="mb-4 text-dark">
-									Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante.
-									Lorem ipsum dolor sit met, con etur adipiscing elit... <a href="story.php">read more</a>
-								</p>
-								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url(images/banner/userprofile.png)"></div>
-									<div class="pl-3">
-										<p class="name">Jane Doe</p>
-										<span class="position">Mother of one</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-wrap py-4" style="height: 280px;">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-							<div class="text">
-								<p class="mb-4 text-dark">
-									Lorem ipsum dolor sit met, con etur adipiscing elit. Ut c males ante.
-									Lorem ipsum dolor sit met, con etur adipiscing elit... <a href="story.php">read more</a>
-								</p>
-								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url(images/banner/userprofile.png)"></div>
-									<div class="pl-3">
-										<p class="name">Jane Doe</p>
-										<span class="position">Mother of three</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+
+					
+
 				</div>
 			</div>
 		</div>
@@ -435,10 +402,10 @@ include_once 'includes/partials/header.inc.php';
                 <h3 class="heading mb-3">' . $row["blogTitle"] . '</h3>
                 <p> ' . substr($row["blogText"], 0, 100) . '... <a href="blog-single.php?blog=' . $row["blogId"] . '">read more</a></p>
               </div>
-					    <a href="#" style="width:30px" title="Share on Twitter" class="btn btn-sm bg-facebook m-1"><i class="fa fa-facebook"></i></a>
+					   <!-- <a href="#" style="width:30px" title="Share on Twitter" class="btn btn-sm bg-facebook m-1"><i class="fa fa-facebook"></i></a>
 					    <a href="#" style="width:30px" title="Share on Twitter" class="btn btn-sm bg-twitter m-1"><i class="fa fa-twitter"></i></a>
 					    <a href="#" style="width:30px" title="Share on LinkedIn" class="btn btn-sm bg-linkedin m-1"><i class="fa fa-linkedin"></i></a>
-					    <a href="#" style="width:30px" title="Share on Instagram" class="btn btn-sm bg-instagram m-1"><i class="fa fa-instagram"></i></a>
+					    <a href="#" style="width:30px" title="Share on Instagram" class="btn btn-sm bg-instagram m-1"><i class="fa fa-instagram"></i></a> -->
             </div>
           </div>
           ';

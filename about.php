@@ -32,6 +32,9 @@ include_once 'includes/partials/header.inc.php';
           <a href="https://ravesandbox.flutterwave.com/donate/5wsqmnmx97vb" target="_blank" class="btn btn-lg baby-blue-darker-bg text-white align-items-center mt-4">
             Donate Now
           </a>
+          <a href="https://flutterwave.com/store/safemotherhoodalliance?_ga=2.253222220.491854133.1612730119-620519137.1601276431" target="_blank" class="btn btn-lg baby-blue-darker-bg text-white align-items-center mt-4">
+            Buy Birth Kits
+          </a>
         </div>
 
       </div>
@@ -45,7 +48,7 @@ include_once 'includes/partials/header.inc.php';
       <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
         <div class="block-18 py-4 mb-4">
           <div class="text align-items-center">
-            <strong class="number" data-number="320">0</strong>
+            <strong class="number" data-number="320">124</strong>
             <span>Our Satisfied &amp; Happy Customers</span>
           </div>
         </div>
@@ -53,7 +56,7 @@ include_once 'includes/partials/header.inc.php';
       <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
         <div class="block-18 py-4 mb-4">
           <div class="text align-items-center">
-            <strong class="number" data-number="5">0</strong>
+            <strong class="number" data-number="5">4</strong>
             <span>Years of Experience</span>
           </div>
         </div>
@@ -61,7 +64,7 @@ include_once 'includes/partials/header.inc.php';
       <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
         <div class="block-18 py-4 mb-4">
           <div class="text align-items-center">
-            <strong class="number" data-number="42">0</strong>
+            <strong class="number" data-number="42">5</strong>
             <span>Our Qualified Personnel</span>
           </div>
         </div>
@@ -69,7 +72,7 @@ include_once 'includes/partials/header.inc.php';
       <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
         <div class="block-18 py-4 mb-4">
           <div class="text align-items-center">
-            <strong class="number" data-number="7">0</strong>
+            <strong class="number" data-number="7">3</strong>
             <span>Our Active Centers</span>
           </div>
         </div>
@@ -78,7 +81,7 @@ include_once 'includes/partials/header.inc.php';
   </div>
 </section>
 
-<section class="ftco-section testimony-section">
+<section class="ftco-section testimony-section hide">
   <div class="img img-bg border" style="background-image: url('images/banner/084e5242fd3c48e484455d908d4240dd.jpg');"></div>
   <div class="overlay"></div>
   <div class="container">

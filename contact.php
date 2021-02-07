@@ -4,7 +4,7 @@ $title = "Contact us | Safe Motherhood Alliance";
 include_once 'includes/partials/header.inc.php';
 ?>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/banner/084e5242fd3c48e484455d908d4240dd - Copy.jpg');" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -87,15 +87,13 @@ include_once 'includes/partials/header.inc.php';
 											</div>
 										</div>
 										<div class="col-md-12">
-											<pre class="feedbackMsg"></pre>
-										</div>
-										<div class="col-md-12">
 											<div class="form-group">
 												<input type="submit" value="Send Message" class="btn btn-primary">
 												<div class="submitting"></div>
 											</div>
 										</div>
 									</div>
+									<pre class="feedbackMsg"></pre>
 								</form>
 							</div>
 						</div>
