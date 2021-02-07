@@ -1,5 +1,5 @@
 <?php
-include_once 'includes/class-autoLoader.inc.php';
+include 'includes/class-autoLoader.inc.php';
 
 class Jdslk
 {
