@@ -1,16 +1,8 @@
 <?php
 
-class Db
-{
-    public function getJdslk()
-    {
-        echo "jdslk";
-    }
-}
-
 use Validator\Validator;
 
-class Dbx extends Validator
+class Db extends Validator
 {
 	//localhost
 	private $servernameLocal = "localhost";
@@ -26,12 +18,12 @@ class Dbx extends Validator
 
 	public function server()
 	{
-		var_dump("server-jdslk()");
-		/* if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
+		// var_dump("server-jdslk()");
+		if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
 			return 'localhost';
 		} elseif (strpos($_SERVER['HTTP_HOST'], 'safemotherhoodalliance.org') !== false) {
 			return 'production';
-		} */
+		}
 	} //end server()
 
 	public function connect()

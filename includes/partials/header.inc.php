@@ -1,5 +1,5 @@
 <?php
-include 'includes/class-autoLoader.inc.php';
+include_once 'includes/class-autoLoader.inc.php';
 ?>
 
 <!DOCTYPE html>
@@ -10,11 +10,8 @@ include 'includes/class-autoLoader.inc.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
         <?php
-        echo "Name: ";
-        $jdslk = new Db();
-        $jdslk->getJdslk();
-        // $db = new DB();
-        // echo $title . ' [' . $db->server() . ']';
+        $db = new DB();
+        echo $title . ' [' . $db->server() . ']';
         ?>
     </title>
     <link rel="shortcut icon" href="favicon.ico">
