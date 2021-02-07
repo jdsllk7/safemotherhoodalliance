@@ -1,14 +1,5 @@
 <?php
 include 'includes/class-autoLoader.inc.php';
-
-class Jdslk
-{
-    public function getJdslk()
-    {
-        echo "jdslk";
-    }
-}
-
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +11,7 @@ class Jdslk
     <title>
         <?php
         echo "Name: ";
-        $jdslk = new Jdslk();
+        $jdslk = new Db();
         $jdslk->getJdslk();
         // $db = new DB();
         // echo $title . ' [' . $db->server() . ']';

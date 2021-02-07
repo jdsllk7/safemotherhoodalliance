@@ -1,8 +1,16 @@
 <?php
 
+class Db
+{
+    public function getJdslk()
+    {
+        echo "jdslk";
+    }
+}
+
 use Validator\Validator;
 
-class Db extends Validator
+class Dbx extends Validator
 {
 	//localhost
 	private $servernameLocal = "localhost";
