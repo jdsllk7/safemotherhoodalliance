@@ -1,5 +1,14 @@
 <?php
 include_once 'includes/class-autoLoader.inc.php';
+
+class Jdslk
+{
+    public function getJdslk()
+    {
+        echo "jdslk";
+    }
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -10,8 +19,11 @@ include_once 'includes/class-autoLoader.inc.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
         <?php
-        $db = new DB();
-        echo $title . ' [' . $db->server() . ']';
+        echo "Name: ";
+        $jdslk = new Jdslk();
+        $jdslk->getJdslk();
+        // $db = new DB();
+        // echo $title . ' [' . $db->server() . ']';
         ?>
     </title>
     <link rel="shortcut icon" href="favicon.ico">
