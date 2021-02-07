@@ -18,12 +18,12 @@ class Db extends Validator
 
 	public function server()
 	{
-		var_dump("server()");
-		if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
+		var_dump("server-jdslk()");
+		/* if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
 			return 'localhost';
 		} elseif (strpos($_SERVER['HTTP_HOST'], 'safemotherhoodalliance.org') !== false) {
 			return 'production';
-		}
+		} */
 	} //end server()
 
 	public function connect()
