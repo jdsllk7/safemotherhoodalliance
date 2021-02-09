@@ -16,7 +16,7 @@ function myAutoLoader($className)
     } */
 
     $extension = ".class.php";
-    $fullPath = dirname(__DIR__) . "/classes/" . $className . $extension;
+    $fullPath = dirname(__DIR__) . "/classes/" . strtolower($className) . $extension;
 
     var_dump(file_exists($fullPath));
     var_dump($fullPath);
