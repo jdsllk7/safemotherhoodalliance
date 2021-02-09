@@ -1,5 +1,5 @@
 <?php
-spl_autoload_register(__NAMESPACE__ .'myAutoLoader');
+spl_autoload_register('myAutoLoader');
 
 function myAutoLoader($className)
 {
