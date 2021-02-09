@@ -16,8 +16,13 @@ function myAutoLoader($className)
     } */
 
     $extension = ".class.php";
-    $fullPath = dirname(__DIR__) . "/classes/" . strtolower($className) . $extension;
+    if (strpos($className, 'DB') !== false) {
+        $fullPath = dirname(__DIR__) . "/classes/" . str_replace("\\", "/", strtolower($className)) . $extension;
+    } else {
+        $fullPath = dirname(__DIR__) . "/classes/" . str_replace("\\", "/", ($className)) . $extension;
+    }
 
+    // var_dump(($className));
     var_dump(file_exists($fullPath));
     var_dump($fullPath);
 
