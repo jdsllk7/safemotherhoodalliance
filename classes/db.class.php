@@ -1,8 +1,8 @@
 <?php
 
-use Validator\Validator;
+// use Validator\Validator;
 
-class Db extends Validator
+class Db
 {
 	//localhost
 	private $servernameLocal = "localhost";
