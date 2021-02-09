@@ -30,7 +30,7 @@ include_once 'includes/partials/header.inc.php';
 								<div class="text">
 									<p>
 										<span>Address:</span>
-										<a href="http://maps.google.com/?q=Plot 18 Mundulundulu Village, Siavonga, Lusaka, Zambia" class="text-dark"> Plot 18 Mundulundulu Village, Siavonga. Lusaka, Zambia.</a>
+										<a href="http://maps.google.com/?q=Plot 18 Mundulundulu Village, Siavonga, Lusaka, Zambia" target="_blank" class="text-dark"> Plot 18 Mundulundulu Village, Siavonga. Lusaka, Zambia.</a>
 									</p>
 								</div>
 							</div>
