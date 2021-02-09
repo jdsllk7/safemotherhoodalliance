@@ -21,9 +21,9 @@ function myAutoLoader($className)
     var_dump(file_exists($fullPath));
     var_dump($fullPath);
 
-    if (!file_exists(strtolower($fullPath))) {
+    if (!file_exists($fullPath)) {
         return false;
     } else {
-        require_once $fullPath;
+        require $fullPath;
     }
 }
