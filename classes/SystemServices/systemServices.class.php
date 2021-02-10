@@ -1,5 +1,7 @@
 <?php
 
+namespace SystemServices;
+
 use FileManager\FileManager;
 
 class SystemServices extends FileManager

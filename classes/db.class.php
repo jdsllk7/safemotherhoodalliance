@@ -1,6 +1,6 @@
 <?php
 
-use Validator;
+use Validator\Validator;
 
 class Db extends Validator
 {
