@@ -74,7 +74,7 @@ $(document).ready(function () {
         },
         error: function (error) {
           console.log(error);
-          feedbackMsg.html("System error, please try again!");
+          feedbackMsg.html("System error, please try again...");
           feedbackMsg.removeClass("text-success");
           feedbackMsg.addClass("text-danger");
         },
