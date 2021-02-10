@@ -1,8 +1,6 @@
 <?php
 
-namespace Validator;
-
-use SystemServices\SystemServices;
+use SystemServices;
 
 class Validator extends SystemServices
 {
