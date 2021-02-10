@@ -1,7 +1,5 @@
 <?php
 
-namespace FileManager;
-
 class FileManager
 {
 	//delete file(s)

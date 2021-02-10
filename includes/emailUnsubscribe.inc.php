@@ -9,7 +9,7 @@ $response = array();
 $email = $_POST["email"];
 
 //get class object
-$emailSubscribe = new EmailSubscribe\EmailSubscribe();
+$emailSubscribe = new EmailSubscribe();
 
 //save email
 $response = $emailSubscribe->deleteEmail($email);

@@ -1,9 +1,5 @@
 <?php
 
-namespace EmailSubscribe;
-
-use Db;
-
 class EmailSubscribe extends Db
 {
 	private $email; //class field

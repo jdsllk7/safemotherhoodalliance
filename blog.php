@@ -21,11 +21,11 @@ include_once 'includes/partials/header.inc.php';
     <div class="row d-flex">
 
       <?php
-      $systemServices = new SystemServices\SystemServices();
-      $fileManager = new FileManager\FileManager();
+      $systemServices = new SystemServices();
+      $fileManager = new FileManager();
       $db = new Db();
       $conn = $db->connect();
-      $blog = new Blog\Blog();
+      $blog = new Blog();
       $result = $blog->getAllBlogs();
       if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {

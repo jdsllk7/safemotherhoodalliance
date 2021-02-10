@@ -1,9 +1,5 @@
 <?php
 
-namespace Validator;
-
-use SystemServices\SystemServices;
-
 class Validator extends SystemServices
 {
     //validate email

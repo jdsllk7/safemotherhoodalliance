@@ -130,7 +130,7 @@
 
 <!-- Email Test -->
 <?php
-/* $emailObj = new SystemServices\SystemServices();
+/* $emailObj = new SystemServices();
     $email = "";
     $name = "Joshua Kosamu";
     $heading = "Please verify your email";

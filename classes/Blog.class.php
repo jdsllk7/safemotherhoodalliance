@@ -1,9 +1,5 @@
 <?php
 
-namespace Blog;
-
-use Db;
-
 class Blog extends Db
 {
 	public function getAllBlogs()

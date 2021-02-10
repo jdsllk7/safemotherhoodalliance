@@ -12,7 +12,7 @@ $subject = $_POST["subject"];
 $message = $_POST["message"];
 
 //get class object
-$contact = new Contact\Contact();
+$contact = new Contact();
 
 //save contact us
 $response = $contact->saveContact($name, $email, $subject, $message);

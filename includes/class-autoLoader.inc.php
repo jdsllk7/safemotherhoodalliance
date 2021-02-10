@@ -1,10 +1,22 @@
 <?php
-spl_autoload_register('AutoLoader');
+spl_autoload_register('myAutoLoader');
 
-function AutoLoader($className)
+function myAutoLoader($className)
 {
-    $file = str_replace('\\', DIRECTORY_SEPARATOR, $className);
-    var_dump(dirname(__DIR__) . '\classes' . DIRECTORY_SEPARATOR . $file . '.php');
-    require_once dirname(__DIR__) . '\classes' . DIRECTORY_SEPARATOR . $file . '.php';
-    //Make your own path, Might need to use Magics like ___DIR___
+    $extension = ".class.php";
+    if (strpos($className, 'DB') !== false) {
+        $fullPath = str_replace("\\", "/", dirname(__DIR__) . "\classes\\" . strtolower($className) . $extension);
+    } else {
+        $fullPath = str_replace("\\", "/", dirname(__DIR__) . "\classes\\" . $className . $extension);
+    }
+
+    // var_dump(($className));
+    // var_dump(file_exists($fullPath));
+    // var_dump($fullPath);
+
+    if (!file_exists($fullPath)) {
+        return false;
+    } else {
+        require_once $fullPath;
+    }
 }

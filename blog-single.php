@@ -4,13 +4,13 @@ include_once 'includes/class-autoLoader.inc.php';
 if (!isset($_GET["blog"])) {
   header("Location: blog.php");
 } else {
-  $blog = new Blog\Blog();
+  $blog = new Blog();
   $result = $blog->getBlog($_GET["blog"]);
   if ($result->num_rows != 1) {
     header("Location: blog.php");
   } else {
     $row = $result->fetch_assoc();
-    $fileManager = new FileManager\FileManager();
+    $fileManager = new FileManager();
     $db = new Db();
     $conn = $db->connect();
     $img = "http://" . $_SERVER['HTTP_HOST'] . "/myprojects/safemotherhoodalliance/admin/" . $fileManager->getFilePath("blog", $row["blogId"], $conn)[0];
@@ -70,11 +70,11 @@ include_once 'includes/partials/header.inc.php';
           <h3>Other Blogs</h3>
 
           <?php
-          $systemServices = new SystemServices\SystemServices();
-          $fileManager = new FileManager\FileManager();
+          $systemServices = new SystemServices();
+          $fileManager = new FileManager();
           $db = new Db();
           $conn = $db->connect();
-          $blog = new Blog\Blog();
+          $blog = new Blog();
           $result = $blog->getSomeBlogs(5);
           while ($row2 = $result->fetch_assoc()) {
             //format date

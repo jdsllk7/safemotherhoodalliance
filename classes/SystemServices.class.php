@@ -1,9 +1,5 @@
 <?php
 
-namespace SystemServices;
-
-use FileManager\FileManager;
-
 class SystemServices extends FileManager
 {
 	//$receiverName = the person receiving email [Add a 'Hi']

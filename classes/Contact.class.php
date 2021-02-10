@@ -1,9 +1,5 @@
 <?php
 
-namespace Contact;
-
-use Db;
-
 class Contact extends Db
 {
 	//class field
