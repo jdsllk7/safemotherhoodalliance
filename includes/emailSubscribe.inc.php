@@ -1,7 +1,7 @@
 <?php
 // die(123);
 //load all classes
-include_once 'class-autoLoader.inc.php';
+// include_once 'class-autoLoader.inc.php';
 
 //init array
 $response = array();
